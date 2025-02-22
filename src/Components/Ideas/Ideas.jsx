@@ -1,9 +1,15 @@
+import Card from '../Card/Card';
 import './Ideas.css';
 
-function Ideas({ name }) {
+function Ideas(props) {
+  const { name } = props;
 
   return (
-    <h2>Hello, {name}!</h2>
+    <div className='ideas-container'>
+      <Card />
+      <Card />
+      <Card />
+    </div>
   )
 }
 
