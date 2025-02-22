@@ -9,12 +9,13 @@ function App() {
     { id: 3, title: 'Learn a martial art', description: 'To exact vengeance upon my enemies' },
   ]
   const [ideas, setIdeas] = useState(dummyIdeas);
+  const namify = "litobot";
 
   return (
     <main classname='App'>
       <h1>IdeaBox</h1>
-      <p>Hi!</p>
-      <Ideas/>
+      <Ideas name='Travis'/>
+      <Ideas name={namify}/>
     </main>
   )
 }

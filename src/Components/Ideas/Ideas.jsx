@@ -1,8 +1,9 @@
 import './Ideas.css';
 
-function Ideas() {
+function Ideas({ name }) {
+
   return (
-    <h2>Ideas go here!</h2>
+    <h2>Hello, {name}!</h2>
   )
 }
 
