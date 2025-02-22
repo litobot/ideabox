@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import './App.css'
+import './App.css';
+import Ideas from '../Ideas/Ideas';
 
 function App() {
   const dummyIdeas = [
@@ -13,6 +14,7 @@ function App() {
     <main classname='App'>
       <h1>IdeaBox</h1>
       <p>Hi!</p>
+      <Ideas/>
     </main>
   )
 }
